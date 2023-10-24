@@ -1,0 +1,111 @@
+ * FILENAME   : Task1.txt
+ * PURPOSE    : TypeScript 1주차 과제1 
+ * AUTHOR     : Lee Juhong
+ * CREATEDATE : 2023-10-24
+ * UPDATEDATE : -
+
+✨TASK.1 타입스크립트란 무엇일까요?
+
+Q. 타입스크립트란? (300자 이내)
+
+	TypeScript는 JavaScript 기반으로 만들어진 프로그래밍 언어이다.
+	정적 타입 검사 기능을 통해 JavaScript로만 개발하면 파악할 수 없었던 Type 오류들을 편집기 초기에 해결할 수 있도록 도와준다.
+	JavaScript를 기반으로 만들어졌기에 JavaScript가 쓰이는 어느 곳에서는 TypeScripㅅ를 통해 나온 결과(타입 검사 처리 결과)는 믿고 써도 된다.
+	뿐만 아니라 코드 Type을 알 수 있기 때문에 자바스크립트에서 제공하는 각 API를 VS Code의 자동 완성을 통해 오타 방지와 개발 생산성을 향상 시킬 수 있다.
+
+
+--------
+
+[1차 정리]
+
+	공식 사이트에서 내린 정의는 "TypeScript는 JavaScript를 기반으로 만들어진 강력한 형식의 프로그래밍 언어로 어떤 규모로든 더 나은 툴링을 제공합니다."라고 정의한다. 상세한 특징을 크게 3가지로 "JavaScript and More", "A Result you and Trust", "Safety at Scale"이라고 말한다.
+
+		(1) JavaScript and More
+		본문 번역 : "TypeScript는 편집기와의 보다 긴밀한 통합을 지원하기 위해 자바스크립트에 추가 구문을 추가합니다. 편집기 초기에 오류를 파악하세요."
+		
+		JavaScript로만 개발하면 편집기 초기에 프로젝트를 실행해야만 알 수 있는 오류들은 이전에 파악할 수 없다. 이러한 오류들을 해결하기 위한 시도를 할 때마다 매번 프로젝트를 실행해야한다. TypeScript는 편집기 초기에 발생할 수 있는 Type 오류들을 편집기 초기에 확인하고 이를 해결할 수 있도록 도와준다.
+
+		(2) A Result you Can Trust
+		본문 번역 : "TypeScript 코드는 자바스크립트로 변환되며, 자바스크립트가 실행되는 모든 곳에서 실행됩니다. : 브라우저, Node.js 또는 Deno 및 앱에서"
+
+		TypeScript는 독특한 구문 때문에 JavaScript 코드를 오류로 보지 않는다. 즉, 어떻게 작성돼있는지 모르지만 작동하는 JavaScript 코드를 TypeScript 파일에 넣어도 잘 작동한다. 즉, 자바스크립트가 쓰이는 어느 곳에서든 TypeScript를 통해 나온 결과(타입 검사 처리 결과)는 믿고 써도 된다. 
+
+		(3) Safety at Scale
+		번역 : TypeScript는 JavaScript를 이해하고 Type추론을 사용하여 추가 코드 없이 훌륭한 툴링을 제공합니다.
+
+		- 정적 타입 검사 : 프로그램 실행 없이 값의 종류 즉, Type을 기반으로 프로그램의 오류 확인한다.
+		- 코드 가이드 및 자동 완성 : 자바스크립트에서 제공하는 각 API를 미리 보기로 띄우고 볼 수 있기 때문에 오타 방지 및 자동 완성이 가능하다.
+			=> 개발 생산성 향상
+
+--------
+
+[전체 정리]
+
+	1. 공식 사이트 설명
+		TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+		(TypeScript는 자바스크립트를 기반으로 만들어진 강력한 형식의 프로그래밍 언어로 어떤 규모로든 더 나은 툴링을 제공합니다.)
+
+		1-1. 공식 사이트 상세 설명
+			TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor.
+			(TypeScript는 편집기와의 보다 긴밀한 통합을 지원하기 위해 자바스크립트에 추가 구문을 추가합니다. 편집기 초기에 오류를 파악하세요.)
+
+				편집기 초기에 오류를 파악해라.
+					=> JavaScript로만 개발하면 편집기 초기에 오류를 파악할 수 없고 디버깅이나 프로젝트를 실행해야만 알 수 있는 오류들은 이전에 파악할 수 없었다.
+					=> 오류를 해결하기 위한 시도를 할 때마다 매번 프로젝트를 실행하거나 디버깅을 해야한다.
+					=> 위와 같은 문제를 해결하기 위해 TypeScript 사용한다.
+
+			TypeScript code converts to JavaScript, which runs anywhere JavaScript runs: In a browser, on Node.js or Deno and in your apps.
+			(TypeScript 코드는 자바스크립트로 변환되며, 자바스크립트가 실행되는 모든 곳에서 실행됩니다. : 브라우저, Node.js 또는 Deno 및 앱에서)
+				
+				자바스크립트가 실행되는 모든 곳에서 실행된다.
+					=> 자바스크립트는 어디서 실행되지?
+					=> 자바스크립트 자체로는 브라우저에서만 프론트 개발이 가능했다.
+					=> Node.js 덕분에 웹사이트 외에도 모바일 앱, 데스크톱 앱, 백엔드 등 다양한 개발이 가능하다.
+
+			TypeScript understands JavaScript and uses type inference to give you great tooling without additional code.
+			(TypeScript는 JavaScript를 이해하고 Type추론을 사용하여 추가 코드 없이 훌륭한 툴링을 제공합니다.)
+
+		1-2. 공식 사이트 핸드북
+
+		- 정적 타입 검사자
+		- 구문 (Syntax)
+		- 타입 (Types)
+
+		url : typescriptlang.org
+		https://www.typescriptlang.org/ko/docs/handbook/typescript-from-scratch.html
+
+	2. 블로그
+		이랜서
+
+		2-1. 이랜서 블로그 글
+
+			많은 프로그래밍 언어들은 타입이 다르면 에러가 나기 때문에 버그를 사전에 막을 수 있습니다. 하지만 자바 스크립트는 타입이 다르더라도 에러라고 알려주지 않기 때문에 많은 버그의 소지가 있습니다.
+
+			자바 스크립트에서는 값에 타입을 표시하는 것이 의무가 아니고 1 + '1'은 '11'과 같은 의도하지 않은 결과가 나오는 가능성이 존재하여 타입이 달라도 연산하는 경우가 있기에 에러가 나도 찾기 어려워질 수 있습니다.
+			- Dynamic Typing-
+			
+			브라우저는 에러가 하나 있으면 화면 전체가 렌더링(화면에 UI를 보여줌)이 멈춰버리는 특성이 있습니다. 저렇게 타입이 틀린데 넘어간 부분의 코드가 많아지게 되면, 나중에는  화면에 아무것도 보이지 않는 현상과 같은 심각한 버그를 초래할 수 있습니다. 이를 보완하기 위해서 TypeScript(타입 스크립트)와 같이 자바 스크립트에 타입을 부여해 엄격한 문법을 유지하는 언어도 등장했고 이를 활용하는 개발자도 늘어나고 있습니다.
+
+			url : https://www.elancer.co.kr/blog/view?seq=173#:~:text=%EC%9E%90%EB%B0%94%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC%20%EA%B0%9C%EB%B0%9C%ED%95%9C,%EB%8B%A4%EC%96%91%ED%95%9C%20%EA%B0%9C%EB%B0%9C%EC%9D%B4%20%EA%B0%80%EB%8A%A5%ED%95%B4%EC%A1%8C%EC%8A%B5%EB%8B%88%EB%8B%A4.
+
+		2-2 타입스크립트 핸드북
+
+		왜 타입스크립트를 써야할까요?
+			- 에러의 사전 방지
+			- 코드 가이드 및 자동 완성(개발 생산성 향상)
+
+		url : https://joshua1988.github.io/ts/why-ts.html#%EC%99%9C-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC-%EC%8D%A8%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94
+
+	3. 유튜브
+		코딩애플
+
+		url : https://www.youtube.com/watch?v=xkpcNolC270&t=28s&pp=ygUKdHlwZXNjcmlwdA%3D%3D
+
+	4. 참고 url 전체
+	- https://www.typescriptlang.org/ko/
+	- https://www.typescriptlang.org/ko/docs/handbook/typescript-from-scratch.html
+	- https://www.elancer.co.kr/blog/view?seq=173#:~:text=%EC%9E%90%EB%B0%94%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC%20%EA%B0%9C%EB%B0%9C%ED%95%9C,%EB%8B%A4%EC%96%91%ED%95%9C%20%EA%B0%9C%EB%B0%9C%EC%9D%B4%20%EA%B0%80%EB%8A%A5%ED%95%B4%EC%A1%8C%EC%8A%B5%EB%8B%88%EB%8B%A4.
+	- https://joshua1988.github.io/ts/why-ts.html#%EC%99%9C-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC-%EC%8D%A8%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94
+	- https://www.youtube.com/watch?v=xkpcNolC270&t=28s&pp=ygUKdHlwZXNjcmlwdA%3D%3D
+
+--------
