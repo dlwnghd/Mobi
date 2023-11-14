@@ -34,6 +34,7 @@
 🚚MOVE: (Move or Rename Resorces) 파일 및 리소스 위치 이동
 💄UXUI: (Add or update the UI and Style files) UI나 style 파일 추가 및 수정
 🙈IGN : (Add or update a .gitignore file) .gitignore 파일 추가 및 수정
+🚑FIX : (Error Fix) 에러 수정 및 해
 ```
 
 ##### [예시]
