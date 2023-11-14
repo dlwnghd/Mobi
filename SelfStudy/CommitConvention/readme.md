@@ -42,7 +42,7 @@
 ```
 ex) ♻️REF : 미사용 코드 제거
     ✨ENH : 예약 확인 및 수정 intersectionObserver로 페이징 + 무한스크롤 구현
-    💄UIS : 새 소식 상세 페이지 UI 적용
+    💄UXUI: 새 소식 상세 페이지 UI 적용
     🙈IGN : .env.local 파일 무시 추가
 ```
 
