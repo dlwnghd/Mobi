@@ -27,7 +27,6 @@
 🐛BUG : (Bug) 버그 수정
 📝DOC : (Documentation) 문서화 관련된 작업
 ✅TEST: (Test) 새로운 유닛테스트를 추가하거나 기존 테스트를 수정
-👷BLD : (Build) 빌드 프로세스 관련 코드 및 스크립트를 수정 (Ex.package,config,env,eslint...)
 ⚡️PERF: (Performance) 계산 속도의 개선과 관련된 작업
 ♻️REF : (Refactor) 코드 리팩토링한 작업
 🔥DEL : (Remove Code or Files) 파일 및 코드 삭제
@@ -36,6 +35,7 @@
 🙈IGN : (Add or update a .gitignore file) .gitignore 파일 추가 및 수정
 🚑FIX : (Error Fix) 에러 수정 및 해결
 ⚙️SET : (Setting) 필수 기본 파일 추가 및 수정(Ex.index.js,page.js...)
+👷CICD: (CI/CD)CI/CD 빌드 시스템을 추가하거나 업데이트
 ```
 
 ##### [예시]
