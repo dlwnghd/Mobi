@@ -34,7 +34,7 @@
 🚚MOVE: (Move or Rename Resorces) 파일 및 리소스 위치 이동
 🔥DEL : (Remove Code or Files) 파일 및 코드 삭제
 🚑FIX : (Error Fix) 에러 수정 및 해결
-⏪REVE:(Revert changes) 변경 내용 되돌리기
+⏪REVE: (Revert changes) 변경 내용 되돌리기
 🔀MERG: (Merge branches) 브랜치 병합
 ♻️REF : (Refactor) 코드 리팩토링한 작업
 ✅TEST: (Add, update or pass tests) 새로운 유닛 테스트를 추가하거나 기존 테스트를 수정
