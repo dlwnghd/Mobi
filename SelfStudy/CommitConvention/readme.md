@@ -24,23 +24,25 @@
 ### [이모지][분류 제목]: 내용
 ```
 🎉INIT: (Begin a project) 프로젝트 시작
+⚙️SET : (Setting) 필수 기본 파일 추가 및 수정(Ex.index.js,page.js...)
+🤡MOCK: (Mock things) Mock 데이터 파일 및 코드 추가/수정
+👷CICD: (CI/CD)CI/CD 빌드 시스템을 추가/수정
 📝DOC : (Documentation) 문서화 관련된 작업
 ✨ENH : (Enhancement) 개선하거나 신기능 추가
 💄UXUI: (Add or update the UI and Style files) UI나 style 파일 추가 및 수정
 🙈IGN : (Add or update a .gitignore file) .gitignore 파일 추가 및 수정
-♻️REF : (Refactor) 코드 리팩토링한 작업
-🧪FAIL: (Add a failling test) 실패하는 테스트 추가
-✅TEST: (Add, update or pass tests) 새로운 유닛 테스트를 추가하거나 기존 테스트를 수정
-🔍SEO : (Improve SEO) SEO 개선 코드
-🐛BUG : (Bug) 버그 수정
-🔥DEL : (Remove Code or Files) 파일 및 코드 삭제
 🚚MOVE: (Move or Rename Resorces) 파일 및 리소스 위치 이동
+🔥DEL : (Remove Code or Files) 파일 및 코드 삭제
 🚑FIX : (Error Fix) 에러 수정 및 해결
-⚙️SET : (Setting) 필수 기본 파일 추가 및 수정(Ex.index.js,page.js...)
-👷CICD: (CI/CD)CI/CD 빌드 시스템을 추가하거나 업데이트
-⚡️PERF: (Performance) 계산 속도의 개선과 관련된 작업
+⏪REVE:(Revert changes) 변경 내용 되돌리기
 🔀MERG: (Merge branches) 브랜치 병합
-🤡MOCK: (Mock things) Mock 데이터 파일 및 코드 추가/수정
+♻️REF : (Refactor) 코드 리팩토링한 작업
+✅TEST: (Add, update or pass tests) 새로운 유닛 테스트를 추가하거나 기존 테스트를 수정
+🧪FAIL: (Add a failling test) 실패하는 테스트 추가
+🐛BUG : (Bug) 버그 수정
+🔖VER :	릴리즈/버전 태그
+🔍SEO : (Improve SEO) SEO 개선 코드
+⚡️PERF: (Performance) 계산 속도의 개선과 관련된 작업
 ```
 
 ---
