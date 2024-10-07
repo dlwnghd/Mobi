@@ -60,7 +60,7 @@ ex) ♻️REF : 미사용 코드 제거
 ---
 
 #### 참고 자료
-- https://www.intelligencelabs.tech/88407556-c76e-49ea-8df2-2140a80ba2ad
+- https://www.intelligencelabs.tech/34a0327f-ed25-40ed-887e-101b62a41b3c
 - https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli
 
 ---
